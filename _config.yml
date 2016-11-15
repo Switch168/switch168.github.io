@@ -1,0 +1,8 @@
+###########
+# site.url, site.title
+title: Kosmos Mobile
+url: "https://kosmosmobile.com"
+
+
+gems:
+  - jekyll-redirect-from
