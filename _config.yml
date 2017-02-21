@@ -1,0 +1,59 @@
+###########
+# site.url, site.title
+title: One Fat Giraffe
+url: "https://onefatgiraffe.com"
+
+# do not include protocol, just the domain
+enforce_ssl: onefatgiraffe.com
+
+# Meta data
+# ---------
+author:  One Fat Giraffe
+keywords:     apps, Vancouver, Canada, web, mobile, media, ios, javascript, php, wordpress
+language:     en
+description: We are a digital media company focused on interactive web and mobile solutions based in Vancouver, Canada.
+
+
+# Links
+# -----
+twitter:      onefatgiraffe
+instagram:    onefatgiraffe
+
+
+########
+# more settings
+
+markdown: kramdown
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+
+
+exclude: [
+  'Gemfile',
+  'Gemfile.lock',
+  'Rakefile',
+  'README.md',
+  'node_modules',
+  'vendor',
+  'bower.json',
+  'package.json',
+  'gruntfile.js',
+  'CONTRIBUTING.md',
+  'components'
+  ]
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+# Settings for analytics helper
+# Set 'provider' to the analytics provider you want to use.
+# Set 'provider' to false to turn analytics off globally.
+#        
+analytics :
+  provider : google
+  google : 
+      tracking_id : 'UA-47364644-1'
