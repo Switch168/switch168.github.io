@@ -3,6 +3,8 @@
 title: Kosmos Mobile
 url: "https://kosmosmobile.com"
 
+assets:
+  cache: false
 
 gems:
   - jekyll-redirect-from
