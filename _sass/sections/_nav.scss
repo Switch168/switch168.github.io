@@ -13,7 +13,7 @@
         }
     }
     .navbar-brand {
-        color: $navbar-light-color;
+        color: $gray-dark;
         @include heading-font;
     }
     .navbar-right li a:focus {

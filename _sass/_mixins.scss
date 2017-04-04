@@ -8,5 +8,11 @@
 }
 
 @mixin background-texture {
-	background-image: url('/img/bg.png');
+	background-image: url('/img/spread.svg');
+  //background-size: contain;
+  //backgroud-repeat: repeat-x;
+}
+
+@mixin background-texture-mountain {
+	background-image: url('/img/mountain.svg');
 }
