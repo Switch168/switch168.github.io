@@ -1,15 +1,23 @@
+@font-face {
+    font-family: "Grandstander Clean";
+    src: url('/fonts/Grandstander-clean.ttf') format("truetype");
+}
+
 @mixin body-font {
-    font-family: 'Libre Franklin', Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 20px;
 }
 
 @mixin heading-font {
-    font-family: 'PT Sans Caption', Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    font-family: 'Helvetica Neue', 'PT Sans Caption', Helvetica, Arial, sans-serif !important;
+    font-weight: 300 !important;
+    font-color: #292b2c;
 }
 
 @mixin background-texture {
-	background-image: url('/img/spread.svg');
-  //background-size: contain;
+	background-image: url('/img/home-phones/tile.svg');
+  background-size: contain;
   //backgroud-repeat: repeat-x;
 }
 

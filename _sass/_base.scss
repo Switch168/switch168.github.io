@@ -149,3 +149,64 @@ section.page {
         font-size: 11px;
     }
 }
+
+/*@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
+*/
+
+.kosmos-container {
+    padding-top: 100px;
+}
+
+.kosmos-container-v2 {
+    padding-top: 30px;
+}
+
+.kosmos-heading {
+    padding-top: 50px !important;
+    font-weight: 400;
+}
+
+.kosmos-description {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: .78;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+.app-buttons {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.faq-images {
+    padding: 25px;
+}
+
+.faq-descriptions {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media (min-width: 576px) {
+    .bd-pageheader {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        margin-bottom: 3rem;
+        text-align: left;
+    }
+}
+
+
+.bd-pageheader {
+    padding: 2rem 15px;
+    margin-bottom: 1.5rem;
+    color: GhostWhite;
+    text-align: left;
+    background-color: #00AEDF;
+}
