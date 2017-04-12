@@ -10,7 +10,8 @@
 header.marquee {
     color: white;
     text-align: center;
-    padding: 75px 0;
+    padding: 50px 0;
+    background-color: #00B6E2;
     @include background-texture;
     .marquee-brand {
         font-size: 4rem;
@@ -34,13 +35,18 @@ header.marquee {
         display: inline-block;
         margin: 20px auto 0;
     }
-    @media(max-width: 554px) {
+    @media(max-width: 555px) {
         .cell {
-            width:80%;
+            width:50%;
+        }
+    }
+    @media(max-width: 650px) {
+        .cell {
+            width:60%;
         }
     }
     @media(min-width: 768px) {
-        padding: 100px 0;
+        padding: 50px 0;
         .marquee-brand {
             font-size: 5rem;
             line-height: 6rem;
@@ -51,7 +57,7 @@ header.marquee {
         }
     }
     @media(min-width: 992px) {
-        padding: 100px 0;
+        padding: 50px 0;
         .marquee-brand {
             font-size: 6rem;
             line-height: 7rem;
