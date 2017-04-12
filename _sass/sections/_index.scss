@@ -11,7 +11,6 @@ header.marquee {
     color: white;
     text-align: center;
     padding: 75px 0;
-    background-color: $brand-primary;
     @include background-texture;
     .marquee-brand {
         font-size: 4rem;
