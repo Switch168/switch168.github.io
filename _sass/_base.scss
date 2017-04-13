@@ -210,20 +210,32 @@ section.page {
     background-color: #00AEDF;
 }
 
-.eula, .key, .privacy {
+.document {
     font-size: 15px
 }
 
-.privacy h1, .privacy h2, .privacy h3, .eula h1, .eula h2, .eula h3 {
+.document h1 {
     font-size: 20px
 }
 
-.privacy h4, .key h4 {
+.docuemnt h2 {
+    font-size: 19px;
+}
+
+.document h3 {
     font-size: 18px
 }
 
-.privacy h5, .privacy h6, .key h5, .key h6 {
+.document h4 {
     font-size: 17px
+}
+
+.document h5 {
+    font-size: 16px
+}
+
+.document h6 {
+    font-size: 16px
 }
 
 .phones, .cell {
