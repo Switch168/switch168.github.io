@@ -5,8 +5,7 @@
       {
         "appID": "6EH6UZ4X5S.com.momoboiler.momoboiler",
         "paths": [
-          "*",
-          "/"
+          "/register.html"
         ]
       }
     ]
